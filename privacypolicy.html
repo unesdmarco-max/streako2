@@ -1,110 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StreaKO Privacy Policy</title>
-</head>
-<body>
-  <main>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StreaKO Privacy Policy</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+      }
+
+      body {
+        margin: 16px;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+        line-height: 1.6;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: 24px;
+      }
+
+      h2 {
+        margin: 22px 0 8px;
+        font-size: 17px;
+      }
+
+      p,
+      li {
+        font-size: 14px;
+      }
+
+      code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+        font-size: 13px;
+      }
+
+      .muted {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
     <h1>StreaKO Privacy Policy</h1>
-    <p><strong>Last updated:</strong> 2026-04-24</p>
+    <p class="muted">Last updated: 2026-04-28</p>
 
     <p>
-      StreaKO is a habit and streak tracker. This policy explains what data the app
-      processes and why.
+      StreaKO is a habit and streak tracking app. This Privacy Policy explains what
+      information the app processes, how it is used, and what choices you have.
     </p>
 
-    <h2>What the app stores on your device</h2>
-    <p>StreaKO stores the following data locally on your device:</p>
+    <h2>1. Information stored on your device</h2>
+    <p>StreaKO primarily stores your habit data locally on your device.</p>
     <ul>
       <li>Habits you create, including name, optional description, emoji, color, and schedule settings.</li>
-      <li>Habit progress data, including streaks and completion history.</li>
-      <li>App preferences, including theme, dark mode, and language.</li>
+      <li>Habit progress, including streaks, completions, and notes.</li>
+      <li>App preferences such as language, theme, and reminder settings.</li>
+      <li>Reward and unlock status used by in-app features.</li>
     </ul>
 
-    <h2>Notifications</h2>
+    <h2>2. Notifications</h2>
     <p>
-      If you enable reminders, the app schedules notifications on your device.
-      You can disable reminders at any time.
+      If you enable reminders, StreaKO uses notification permission to send local habit
+      reminders on your device. You can disable notifications at any time in Android settings
+      or inside the app.
     </p>
 
-    <h2>Health Connect</h2>
+    <h2>3. Optional Usage Access</h2>
     <p>
-      If you enable automatic tracking features, StreaKO can connect to Health Connect
-      to read health data on your device. This is optional and disabled by default.
+      StreaKO may offer optional automatic habit completion based on phone usage limits. If you
+      choose to enable this feature, the app may request Android Usage Access.
+    </p>
+    <p>When enabled, StreaKO may read:</p>
+    <ul>
+      <li>Your daily screen-on count.</li>
+      <li>Your daily screen time total.</li>
+    </ul>
+    <p>This data is used only to:</p>
+    <ul>
+      <li>Check whether you stayed within the limits you configured.</li>
+      <li>Optionally auto-complete the linked habit on your device.</li>
+    </ul>
+    <p>
+      This usage data is processed on-device and is not uploaded to StreaKO servers. You can
+      revoke Usage Access at any time from Android settings.
     </p>
 
+    <h2>4. Advertising</h2>
+    <p>StreaKO displays ads using Google AdMob.</p>
+    <p>The app may show these ad formats:</p>
+    <ul>
+      <li>Banner ads.</li>
+      <li>Interstitial ads.</li>
+      <li>App open ads.</li>
+      <li>Native ads.</li>
+      <li>Rewarded ads and rewarded interstitial ads.</li>
+    </ul>
     <p>
-      Data types we may access, only if you enable the feature and grant permission:
+      Google and its partners may process certain device and advertising-related data to deliver,
+      personalize, measure, and protect ads, depending on your region and choices. This may
+      include data such as advertising identifiers, IP address, device information, and ad
+      interaction information.
+    </p>
+
+    <h2>5. Consent and privacy choices</h2>
+    <p>
+      In regions where consent is required, StreaKO uses Google's User Messaging Platform (UMP)
+      to collect and manage ad consent before initializing ads.
+    </p>
+    <p>
+      If available in your region, you can review or update your ad privacy choices from the
+      in-app "Ad choices" option.
+    </p>
+
+    <h2>6. Analytics</h2>
+    <p>
+      StreaKO does not include a separate analytics SDK in this build. If analytics are added in
+      a future version, this Privacy Policy will be updated.
+    </p>
+
+    <h2>7. Backups and exports</h2>
+    <p>StreaKO may let you create local exports or backups on your device, such as:</p>
+    <ul>
+      <li>CSV exports of your habits.</li>
+      <li>JSON backups used for local restore/import.</li>
+    </ul>
+    <p>
+      These files are created on your device and remain under your control unless you choose to
+      move or share them yourself.
+    </p>
+
+    <h2>8. Data sharing</h2>
+    <p>
+      StreaKO does not sell your personal data. Habit data and optional Usage Access data are not
+      shared with StreaKO servers.
+    </p>
+    <p>
+      Ad-related data may be processed by Google AdMob and its partners as part of ad delivery and
+      consent handling.
+    </p>
+
+    <h2>9. Data retention and deletion</h2>
+    <p>
+      Your habit data remains on your device until you remove it. You can delete your data at any
+      time by:
     </p>
     <ul>
-      <li>
-        <strong>Steps:</strong> we read your total steps for today, from the start of
-        the day until now, to optionally auto-complete a linked walking habit when you
-        reach your step goal.
-      </li>
-      <li>
-        <strong>Sleep sessions:</strong> we read your sleep session durations for last
-        night, a “night window,” to optionally auto-complete a linked sleep habit when
-        you reach your sleep goal.
-      </li>
+      <li>Using <strong>Settings &gt; Delete all data</strong> inside the app.</li>
+      <li>Uninstalling the app from your device.</li>
     </ul>
 
-    <p>How we use this data:</p>
-    <ul>
-      <li>We use steps and sleep data only to evaluate whether you met a goal and to mark a linked habit as completed.</li>
-      <li>We do not sell health data. We do not share health data with advertisers.</li>
-      <li>Health data is processed on-device. StreaKO does not upload your Health Connect data to our servers.</li>
-    </ul>
-
-    <h2>Advertising</h2>
+    <h2>10. Children's privacy</h2>
     <p>
-      The app shows ads using Google AdMob. Depending on your region and choices,
-      ads may be personalized or non-personalized.
-    </p>
-    <ul>
-      <li>AdMob may process device information such as the advertising ID and IP address to deliver and measure ads.</li>
-      <li>In regions where consent is required, for example EEA/UK, the app uses Google's consent flow, UMP, before requesting ads.</li>
-    </ul>
-
-    <h2>Analytics</h2>
-    <p>
-      StreaKO does not include an analytics SDK in this build. If analytics are added
-      in future versions, this policy will be updated.
+      StreaKO is not intended for children under the age required by applicable law to consent to
+      personal data processing on their own. If you believe data was provided improperly, please
+      contact us.
     </p>
 
-    <h2>Data sharing</h2>
+    <h2>11. Changes to this policy</h2>
     <p>
-      We do not sell your personal data. AdMob may process data for advertising
-      purposes as described above.
+      We may update this Privacy Policy from time to time. When we do, we will update the "Last
+      updated" date at the top of this page.
     </p>
 
-    <h2>Data export</h2>
+    <h2>12. Contact</h2>
     <p>
-      You can export your habits to a CSV file stored in the app's documents directory
-      on your device.
+      If you have questions about this Privacy Policy, you can contact us at:
+      <code>damrco00000@gmail.com</code>
     </p>
-
-    <h2>Data retention and deletion</h2>
-    <p>
-      StreaKO stores your habit data locally on your device and retains it until you
-      delete it.
-    </p>
-
-    <p>You can delete your data at any time:</p>
-    <ul>
-      <li>In the app: Settings &rarr; Delete all data removes habits, completions, notes, and rewards stored by the app.</li>
-      <li>Uninstalling the app removes locally stored app data from your device.</li>
-      <li>Health Connect permissions can be removed at any time from Android / Health Connect settings.</li>
-      <li>You can also disable Steps Sync / Sleep Tracking inside the app.</li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>
-      Privacy questions:
-      <a href="mailto:damrco00000@gmail.com">damrco00000@gmail.com</a>
-    </p>
-  </main>
-</body>
+  </body>
 </html>
